@@ -47,10 +47,12 @@ nav .menu .menu-item a {
   background-color: #181e1e;
   transform: translateY(-400px);
   transition: all 0.3s ease-out;
+  display: none;
 }
 
 .mobile-menu-container.open {
   transform: translateY(0);
+  display: block;
 }
 
 .mobile-menu-container ul {
