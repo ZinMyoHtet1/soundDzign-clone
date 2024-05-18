@@ -2,7 +2,7 @@ import "./Navbar.css";
 import { burger, closeIcon, logo } from "../../assets";
 import { useState } from "react";
 const Navbar = () => {
-  const [openMenu, setOpenMenu] = useState(true);
+  const [openMenu, setOpenMenu] = useState(false);
   const handleToggle = () => {
     setOpenMenu((prev) => !prev);
   };
